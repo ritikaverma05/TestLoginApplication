@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  HomeTabBarController.swift
 //  BlackcofferApplication
 //
-//  Created by RITIKA VERMA on 20/03/21.
+//  Created by RITIKA VERMA on 22/03/21.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
-
